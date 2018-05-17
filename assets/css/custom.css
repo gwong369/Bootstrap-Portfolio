@@ -2,17 +2,18 @@ body{
     margin: 0 auto;
     height: 100%;
     padding-bottom: 120px;
+    color: #fff;
 }
-header{
+/* header{
     background-color: #ffffff;
     width: 960px;
     height: 80px;
     text-align: right;
     margin: 0 auto;
     clear: both;
-}
+} */
 
-nav{
+/* nav{
     border-bottom: #4aaaa5 solid 2px;
     height: 80px;
     width: 100%;
@@ -20,8 +21,16 @@ nav{
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    vertical-align: -webkit-baseline-middle;
+} */
+
+.navbar{
+    padding: 0px;
 }
 
+.bg-light {
+    background-color: #fff!important;
+}
 
 section{
     border-top: #cccccc 2px solid;
@@ -30,11 +39,18 @@ section{
     padding: 30px 0px 30px 0px;
 }
 
-h1{
+.background{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px 0px 0px;
+}
+
+.navbar-brand{
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: #ffffff;
+    color: white;
     font-size: 24pt;
     padding: 20px 40px 10px 40px;
     float: left;
@@ -51,6 +67,10 @@ h2{
     padding: 30px 0px 30px 0px;
     border-bottom: #cccccc 2px solid;
     margin: 0px 30px 0px 30px;
+}
+
+.img-portfolio{
+    margin: 30px;
 }
 
 #main-bio{
@@ -85,7 +105,7 @@ h2{
     margin: 30px;
 }
 
-.img-responsive{
+#img-responsive{
     margin: 30px;
 }
 
@@ -139,7 +159,7 @@ footer{
 .nav-item{
     color: #999;
 }
-.nav-item ul li:after {
+.nav-link ul li:after {
     padding-right: 10px;
     padding-left: 10px;
     content: "|";
@@ -150,12 +170,13 @@ footer{
     text-decoration: none;
     letter-spacing: 0.90px;
 }
-.nav-item ul li:last-child:after {
+.nav-link ul li:last-child:after {
     content: " ";
     padding-right: 0px;
     padding-left: 0px;
 }
-.container{
-    background-image: url('assets/images/topography');
+
+body{
+    background-image: url('../images/topography.png');
     background-repeat: repeat;
 }
